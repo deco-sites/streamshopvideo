@@ -237,6 +237,17 @@
       "section": {
         "__resolveType": "Footer"
       }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "streamshop/sections/Info&Reels.tsx",
+        "title": "Teste",
+        "size": {
+          "width": "300",
+          "height": "600"
+        }
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
