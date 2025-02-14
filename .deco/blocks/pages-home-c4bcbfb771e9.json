@@ -44,7 +44,7 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "streamshop/sections/Carousel.tsx",
-        "title": "Videos",
+        "title": "Carrossel",
         "style": {
           "containerWidth": "container",
           "styleDesktop": {
