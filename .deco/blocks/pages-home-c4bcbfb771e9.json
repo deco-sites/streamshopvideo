@@ -49,6 +49,27 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "streamshop/sections/Carousel.tsx",
+        "style": {
+          "containerWidth": "container",
+          "styleDesktop": {
+            "videoHeigth": "375",
+            "videoWidth": "175"
+          },
+          "styleMobile": {
+            "videoHeigth": "375",
+            "videoWidth": "175"
+          }
+        },
+        "title": "Videos",
+        "slugs": [
+          "cg00t5Db"
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/Product/ProductShelf.tsx",
         "title": "Featured Products",
         "cta": "/mono",
@@ -192,27 +213,6 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "Footer"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "streamshop/sections/Carousel.tsx",
-        "style": {
-          "containerWidth": "container",
-          "styleDesktop": {
-            "videoHeigth": "375",
-            "videoWidth": "175"
-          },
-          "styleMobile": {
-            "videoHeigth": "375",
-            "videoWidth": "175"
-          }
-        },
-        "title": "Videos",
-        "slugs": [
-          "cg00t5Db,sdunnMpC,9zCcxtSH,urtmCzUx,hOok12Xu,Rm7y6eVs,YW9HwZbU,CS2UU3tJ"
-        ]
       }
     }
   ],
