@@ -20,7 +20,19 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "streamshop/sections/Stories.tsx",
+        "title": "Stories",
+        "slugs": [
+          "urtmCzUx",
+          "EL2GXnIR"
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "streamshop/sections/Carousel.tsx",
+        "title": "Videos",
         "style": {
           "containerWidth": "container",
           "styleDesktop": {
@@ -33,7 +45,6 @@
           },
           "radius": "pequeno"
         },
-        "title": "Videos",
         "slugs": [
           "tIPEFAOU",
           "eYLGpghI"
