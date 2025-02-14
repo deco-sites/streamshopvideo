@@ -3282,6 +3282,36 @@ details.collapse summary::-webkit-details-marker {
 .artboard.phone {
   width: 320px;
 }
+.artboard.phone-1.horizontal,
+      .artboard.phone-1.artboard-horizontal {
+  width: 568px;
+  height: 320px;
+}
+.artboard.phone-2.horizontal,
+      .artboard.phone-2.artboard-horizontal {
+  width: 667px;
+  height: 375px;
+}
+.artboard.phone-3.horizontal,
+      .artboard.phone-3.artboard-horizontal {
+  width: 736px;
+  height: 414px;
+}
+.artboard.phone-4.horizontal,
+      .artboard.phone-4.artboard-horizontal {
+  width: 812px;
+  height: 375px;
+}
+.artboard.phone-5.horizontal,
+      .artboard.phone-5.artboard-horizontal {
+  width: 896px;
+  height: 414px;
+}
+.artboard.phone-6.horizontal,
+      .artboard.phone-6.artboard-horizontal {
+  width: 1024px;
+  height: 320px;
+}
 .badge-sm {
   height: 1rem;
   font-size: 0.75rem;
@@ -3874,6 +3904,12 @@ details.collapse summary::-webkit-details-marker {
 .aspect-\[156\/87\] {
   aspect-ratio: 156/87;
 }
+.aspect-\[9\/15\] {
+  aspect-ratio: 9/15;
+}
+.aspect-\[9\/16\] {
+  aspect-ratio: 9/16;
+}
 .h-12 {
   height: 3rem;
 }
@@ -3910,6 +3946,9 @@ details.collapse summary::-webkit-details-marker {
 .h-\[52px\] {
   height: 52px;
 }
+.h-auto {
+  height: auto;
+}
 .h-full {
   height: 100%;
 }
@@ -3919,6 +3958,9 @@ details.collapse summary::-webkit-details-marker {
 }
 .h-px {
   height: 1px;
+}
+.h-screen {
+  height: 100vh;
 }
 .max-h-\[110px\] {
   max-height: 110px;
@@ -3952,6 +3994,9 @@ details.collapse summary::-webkit-details-marker {
 }
 .min-h-\[42px\] {
   min-height: 42px;
+}
+.min-h-\[448px\] {
+  min-height: 448px;
 }
 .min-h-\[660px\] {
   min-height: 660px;
@@ -3988,6 +4033,9 @@ details.collapse summary::-webkit-details-marker {
 }
 .w-\[10px\] {
   width: 10px;
+}
+.w-\[1320px\] {
+  width: 1320px;
 }
 .w-\[287px\] {
   width: 287px;
@@ -4059,6 +4107,9 @@ details.collapse summary::-webkit-details-marker {
 }
 .min-w-\[4px\] {
   min-width: 4px;
+}
+.\!max-w-full {
+  max-width: 100% !important;
 }
 .max-w-6xl {
   max-width: 72rem;
@@ -4521,6 +4572,10 @@ details.collapse summary::-webkit-details-marker {
   --tw-bg-opacity: 1;
   background-color: rgb(203 213 225 / var(--tw-bg-opacity));
 }
+.bg-slate-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
+}
 .bg-slate-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(30 41 59 / var(--tw-bg-opacity));
@@ -4581,6 +4636,10 @@ details.collapse summary::-webkit-details-marker {
 .p-8 {
   padding: 2rem;
 }
+.\!px-5 {
+  padding-left: 1.25rem !important;
+  padding-right: 1.25rem !important;
+}
 .px-0 {
   padding-left: 0px;
   padding-right: 0px;
@@ -4636,6 +4695,10 @@ details.collapse summary::-webkit-details-marker {
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 .py-28 {
   padding-top: 7rem;
@@ -4876,6 +4939,10 @@ details.collapse summary::-webkit-details-marker {
 }
 .tracking-\[-3px\] {
   letter-spacing: -3px;
+}
+.\!text-white {
+  --tw-text-opacity: 1 !important;
+  color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
 }
 .text-\[\#057EB5\] {
   --tw-text-opacity: 1;
@@ -5488,6 +5555,17 @@ details.collapse summary::-webkit-details-marker {
   display: none;
 }
 
+@media not all and (min-width: 768px) {
+
+  .max-md\:min-h-\[675px\] {
+    min-height: 675px;
+  }
+
+  .max-md\:max-w-\[380px\] {
+    max-width: 380px;
+  }
+}
+
 @media (min-width: 640px) {
 
   .sm\:bottom-2 {
@@ -5685,6 +5763,11 @@ details.collapse summary::-webkit-details-marker {
     padding: 2.5rem;
   }
 
+  .sm\:\!px-5 {
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
+  }
+
   .sm\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
@@ -5693,6 +5776,11 @@ details.collapse summary::-webkit-details-marker {
   .sm\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+  }
+
+  .sm\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
 
   .sm\:py-10 {
@@ -5746,6 +5834,10 @@ details.collapse summary::-webkit-details-marker {
     margin-right: 2.5rem;
   }
 
+  .md\:max-h-\[500px\] {
+    max-height: 500px;
+  }
+
   .md\:max-w-\[50\%\] {
     max-width: 50%;
   }
@@ -5766,6 +5858,11 @@ details.collapse summary::-webkit-details-marker {
 
   .md\:gap-20 {
     gap: 5rem;
+  }
+
+  .md\:\!px-0 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
   }
 
   .md\:px-\[60px\] {
