@@ -249,18 +249,18 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "Footer"
+        "__resolveType": "streamshop/sections/Widget.tsx",
+        "options": {
+          "live": "https://live.streamshop.com.br/streamshopdemo",
+          "positionX": "right",
+          "positionY": "down"
+        }
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "streamshop/sections/Widget.tsx",
-        "options": {
-          "live": "https://lite.streamshop.com.br/streamshopdemo",
-          "positionX": "right",
-          "positionY": "down"
-        }
+        "__resolveType": "Footer"
       }
     }
   ],
