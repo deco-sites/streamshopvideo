@@ -251,6 +251,17 @@
       "section": {
         "__resolveType": "Footer"
       }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "streamshop/sections/Widget.tsx",
+        "options": {
+          "live": "https://lite.streamshop.com.br/streamshopdemo",
+          "positionX": "right",
+          "positionY": "down"
+        }
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
